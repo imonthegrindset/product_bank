@@ -69,7 +69,7 @@ function App() {
             <label htmlFor="" className='text-black text-lg'>password</label>
             <input onInput={handlePassword} type="password" className='bg-white border-black outline-none text-lg text-black border-2 w-1/3' />
           </div>
-          <button className=' border-black w-[9rem] text-lg text-black border-2'>enter</button>
+          <button onClick={() => { logIn(email, password)} } className=' border-black w-[9rem] text-lg text-black border-2'>enter</button>
         </div>
       ) : (
         <div className='flex flex-col gap-3 '>
