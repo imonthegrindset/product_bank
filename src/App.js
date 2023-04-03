@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div className="text-5xl min-h-screen  bg-white p-3">
-      <h1 className='text-black'>Product bank </h1>
+      <h1 className='text-black'>W in the chat</h1>
       {currentUser === null ? (
         <div>
           <div className='flex flex-col gap-3 pt-8'>
