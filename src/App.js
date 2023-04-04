@@ -77,7 +77,7 @@ function App() {
             fetchAllProductLinks();
           }} className='text-lg w-[6rem] border-2 border-pink-600 mt-2'>reveal list</button>
           <div>
-            {collectionArray.map(date => {
+            {collectionArray.slice().reverse().map(date => {
               console.log(date);
               return (
                 <>
